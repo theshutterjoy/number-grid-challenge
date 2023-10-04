@@ -1,0 +1,92 @@
+body {
+    background-color: #F8F0E5;
+    margin: 10px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#back-icon {
+    font-size: 24px; /* Adjust the icon size as needed */
+    margin-right: 10px; /* Add spacing between the icon and header image */
+    color: #333; /* Icon color */
+    padding-left: 10px;
+    padding-right: auto;
+}
+
+/* CSS for the master head section */
+
+.head {
+    font-family: 'Pixelify Sans', cursive; /* Font family */
+    font-size: 50px;
+    color: #CD5C08; /* Text color */
+    margin: 0 0;
+    text-align: center;
+}
+
+.subhead {
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 900;
+}
+
+.para {
+    font-family:'Courier New', Courier, monospace;
+    max-width: 600px;
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+    background-color: aliceblue;
+    border: 2px solid #CD5C08;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 1.2rem;
+}
+
+.list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+    justify-content: baseline;
+}
+
+li {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #333;
+}
+
+.contact {
+    padding: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: #CD5C08;
+}
+
+#about {
+    font-family:'Courier New', Courier, monospace;
+    max-width: 600px;
+}
+
+/* CSS for the footer */
+footer {
+    font-size: x-small;
+    text-align: center;
+    color: #333;
+    padding: 10px;
+}
