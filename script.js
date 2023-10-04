@@ -1,3 +1,4 @@
+
 let playerScore = 0;
 // let highestScore = localStorage.getItem('highestScore') || 0;
 
@@ -82,6 +83,12 @@ function startNewGame() {
     updateHintDisplay();
 }
 
+// Get the audio element
+const moveSound = document.getElementById('move-sound');
+
+// Set the volume (adjust as needed)
+moveSound.volume = 1; // Set the volume to 50%
+
 
 // Function to handle cell moves
 function moveCell(cell, gridSize) {
@@ -109,6 +116,9 @@ function moveCell(cell, gridSize) {
         // Update move count
         const moveCount = parseInt(document.getElementById('move-count').textContent) + 1;
         document.getElementById('move-count').textContent = moveCount;
+
+        // Play the sound when a number is moved
+        moveSound.play();
 
         // Check for win condition
         if (checkWinCondition(gridSize)) {
@@ -216,3 +226,6 @@ function initializeScores() {
     // Retrieve and display the highest score from local storage
     document.getElementById('highest-score').textContent = `Highest Score: ${highestScore}`;
 }
+
+
+
