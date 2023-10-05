@@ -6,7 +6,8 @@
 
 # Number Grid Challenge
 
-![Number GRID challenge](https://github.com/theshutterjoy/number-grid-challenge/assets/16652670/35defd06-594a-4672-b800-bc044a00efa7)
+![Number GRID challenge](https://github.com/theshutterjoy/number-grid-challenge/assets/16652670/a123ea6f-009a-4f47-9f03-b062a89a3ae7)
+
 
 
 ## Overview
