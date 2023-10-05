@@ -1,3 +1,10 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Reset some default styles for better consistency */
 body, h1, h2, p {
     margin: 5px;
@@ -25,10 +32,7 @@ header {
 
 /* CSS for the info icon */
 #info-icon {
-    font-size: 24px; /* Adjust the icon size as needed */
-    margin-right: 10px; /* Add spacing between the icon and header image */
-    color: #333; /* Icon color */
-    padding-left: 20px;
+    margin-right: 5px; /* Add spacing between the icon and header image */
 }
 
 
@@ -133,6 +137,7 @@ button {
     margin: 10px;
     border-radius: 5px;
     outline: none; /* Remove button outline on click */
+    align-items: center;
 }
 
 button:hover {
@@ -146,6 +151,9 @@ button:hover {
     grid-gap: 5px;
     max-width: 300px;
     margin-top: 20px;
+    padding-left: 35px;
+    align-content: center;
+    
 }
 
 /* Grid cell style */

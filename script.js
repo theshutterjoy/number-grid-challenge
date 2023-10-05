@@ -21,6 +21,11 @@ function shuffleArray(array) {
     }
 }
 
+function navigateToInfoPage() {
+    window.location.href = "master-head.html";
+}
+
+
 // Function to show the modal dialog
 function openModal() {
     const modal = document.getElementById('myModal');
