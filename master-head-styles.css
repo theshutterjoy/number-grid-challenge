@@ -28,7 +28,7 @@ header {
 .head {
     font-family: 'Pixelify Sans', cursive; /* Font family */
     font-size: 50px;
-    color: #CD5C08; /* Text color */
+    color: #CD5C08; /* Text color. */
     margin: 0 0;
     text-align: center;
 }
@@ -89,7 +89,7 @@ li {
 
 /* CSS for the footer */
 footer {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-align: center;
     color: #333;
     padding: 10px;
