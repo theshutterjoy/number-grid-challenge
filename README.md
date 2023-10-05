@@ -33,7 +33,7 @@ To play the game follow these steps:
 
 1. Click on the link:
 
-   <number-grid-challenge.vercel.app>
+   [link text]number-grid-challenge.vercel.app
 
 ## Contact
     Author: Suman D. ([@theshutterjoy](https://github.com/theshutterjoy)https://github.com/theshutterjoy)
