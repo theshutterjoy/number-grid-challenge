@@ -27,7 +27,7 @@ header {
 
 .head {
     font-family: 'Pixelify Sans', cursive; /* Font family */
-    font-size: 50px;
+    font-size: 2rem;
     color: #CD5C08; /* Text color */
     margin: 0 0;
     text-align: center;
